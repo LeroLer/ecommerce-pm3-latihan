@@ -1,8 +1,8 @@
 <header>
-    <nav class='navbar navbar-expand-lg bg-body-tertiary'>
+<nav class='navbar navbar-expand-lg' style="background-color: cyan;">
         <div class='container'>
             <a class='navbar-brand' href='#'>
-                <img src='assets/images/logo/bootstrap-logo.svg' alt='Logo' width='30' height='24'
+                <img src='assets/images/logo/CustomArt Logo.png' alt='Logo' width='40' height='40'
                     class='d-inline-block align-text-top'></a>
             <form class='d-flex me-auto' role='search'>
                 <input type='search' class='form-control search-hover' name='' placeholder='Search here...'

@@ -16,13 +16,13 @@ if(strpos($_SERVER['REQUEST_URI'], '/api') !== false) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Selamat Datang di laman ecommerce kami">
-    <meta name="author" content="Ridho Akbar">
-    <meta name="generator" content="Ridho Akbar">
+    <meta name="description" content="Selamat Datang di dunia CustomArt">
+    <meta name="author" content="CustomArt Team">
+    <meta name="generator" content="CustomArt Team">
     <meta name="theme-color" content="#712cf9">
     <title>e-Commerce</title>
     <link rel="icon" type="image/png"
-        href="<?= isset($_SESSION['role_user']) && $_SESSION['role_user'] === 1 ? "../../" : "" ?>assets/images/logo/bootstrap-logo.svg">
+    href="<?= isset($_SESSION['role_user']) && $_SESSION['role_user'] === 1 ? "../../" : "" ?>assets/images/logo/CustomArt Logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">

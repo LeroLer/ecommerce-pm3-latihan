@@ -17,7 +17,7 @@
                 <a href="#" class="d-block text-decoration-none">
                     <i class="bi bi-whatsapp"></i> +62 81351941946</a>
                 <a href="#" class="d-block text-decoration-none">
-                    <i class="bi bi-envelope-fill"></i> ridhoakbar.id@gmail.com
+                <i class="bi bi-envelope-fill"></i> customartcommission@gmail.com
                 </a>
             </div>
             <div class="col-sm-6 col-md-4 py-2">
@@ -58,7 +58,7 @@
     </div>
     <div class="container-fluid pt-3 border-top">
         <p class="text-center mb-0">
-            e-Store @ 2023. <span class="fw-bold">All rights reserved</span>
+        CustomArt Commission @ 2023. <span class="fw-bold">All rights reserved</span>
         </p>
     </div>
 </footer>

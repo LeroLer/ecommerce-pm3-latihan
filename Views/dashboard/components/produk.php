@@ -25,18 +25,6 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="harga" class="col-sm-3 col-form-label">Harga</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="harga" name="harga">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <label for="stock" class="col-sm-3 col-form-label">Stock</label>
-                        <div class="col-sm-9">
-                            <input type="number" class="form-control" id="stock" name="stock">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
                         <label for="photo" class="col-sm-3 col-form-label">Produk Photo</label>
                         <div class="col-sm-9">
                             <input type="file" class="form-control" id="foto" name="foto" accept="image/*">
@@ -85,8 +73,6 @@
                     <th scope="col">No</th>
                     <th scope="col">Nama Produk</th>
                     <th scope="col">Deskripsi</th>
-                    <th scope="col">Harga</th>
-                    <th scope="col">Stock</th>
                     <th scope="col">Foto</th>
                     <th scope="col">Kategori</th>
                     <th scope="col">Aksi</th>
@@ -110,8 +96,6 @@
                             <td>${index + 1}</td>
                             <td>${produk.nama_produk}</td>
                             <td>${produk.deskripsi}</td>
-                            <td>${produk.harga}</td>
-                            <td>${produk.stock}</td>
                             <td><img src="${produk.foto}" alt="No_Image" width="64" height="64"/></td>
                             <td>${produk.nama_kategori}</td>
                             <td>
@@ -163,8 +147,6 @@
                     $('#id').val(produk.id || '');
                     $('#nama_produk').val(produk.nama_produk || '');
                     $('#deskripsi').val(produk.deskripsi || '');
-                    $('#harga').val(produk.harga || '');
-                    $('#stock').val(produk.stock || '');
 
                     $.ajax({
                         url: '/api/kategoris',

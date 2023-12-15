@@ -39,9 +39,9 @@
                   </h5>
                   <p class="card-text">
                     <small><?= $produk['deskripsi'] ?></small>
-                    <h5>Harga : Rp. <?= $produk['harga'] ?></h5>
-                    <small>Stock Barang : <?= $produk['stock'] ?></small>
                   </p>
+                  <a target="_blank" href="https://api.whatsapp.com/send?phone=6285156998225&text=Tes" class="btn btn-primary">WhatsApp
+                  </a>
                 </div>
               </div>
             <?php } ?>

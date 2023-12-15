@@ -21,10 +21,10 @@ class ProdukController
     {
         $foto = $_FILES['foto'] ?? null;
 
-        if ($foto && $foto['size'] > 300 * 1024) {
+        if ($foto && $foto['size'] > 1024 * 1024) {
             $message = [
                 'tipe' => 'error',
-                'pesan' => 'Kesalahan : Ukuran Foto Maksimal 300kb',
+                'pesan' => 'Kesalahan : Ukuran Foto Maksimal 1024kb',
             ];
         } else {
             $result = $this->produkModel->store($_POST);
@@ -36,7 +36,7 @@ class ProdukController
                 ];
 
                 if ($foto) {
-                    $this->produkModel->uploadfoto($_POST['id'], $foto);
+                    $this->produkModel->uploadfoto($this->produkModel->getConn()->lastInsertId(), $foto);
                 }
             } else {
                 $message = [
@@ -54,10 +54,10 @@ class ProdukController
     {
         $foto = $_FILES['foto'] ?? null;
 
-        if ($foto && $foto['size'] > 300 * 1024) {
+        if ($foto && $foto['size'] > 1024 * 1024) {
             $message = [
                 'tipe' => 'error',
-                'pesan' => 'Kesalahan : Ukuran Foto Maksimal 300kb',
+                'pesan' => 'Kesalahan : Ukuran Foto Maksimal 1024kb',
             ];
         } else {
             $result = $this->produkModel->edit($_POST);
